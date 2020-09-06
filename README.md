@@ -7,4 +7,4 @@ The checklists are divided into 2 phases:
 - [Design checklist](/docs/references/design-checklist.md): the checklist you must meet before beginning development of microservice
 - [Pre-production checklist](/docs/references/pre-production-checklist.md): the checklist you must meet before production deployment
 
-You can see the guide [Check Production Readiness](/docs/guides/check-production-readiness.md) to know its usage and its review process. 
+The check items in each phase vary by its [production readiness level](/docs/references/production-readiness-level.md) which is defined by its SLO. You can see the guide [Check Production Readiness](/docs/guides/check-production-readiness.md) to know checklist usage and its review process. 
