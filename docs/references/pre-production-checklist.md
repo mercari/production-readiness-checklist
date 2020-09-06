@@ -31,7 +31,7 @@ Observability affects team productivity and system availability. If observabilit
 
 | Check name | Short Description  | Level C | Level B | Level A |
 | :--------- | :----------------- | :------ | :------ | :------ |
-| Tracing | Its requests are traced by [Datadog APM](https://docs.datadoghq.com/tracing/). | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Tracing | Its requests are traced by [Datadog APM](https://docs.datadoghq.com/tracing/). See [Configure Tracing](../guides/configure-tracing.md)| :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | Timeboard | Its [Datadog Timeboard](https://docs.datadoghq.com/dashboards/timeboards/) is created. |  | :white_check_mark: | :white_check_mark: |
 | Screenboard | Its [Datadog Screenboard](https://docs.datadoghq.com/dashboards/screenboards/) is created. |  |  | :white_check_mark: |
 | GCP metrics | Its GCP projects are [integrated with Datadog](https://docs.datadoghq.com/integrations/google_cloud_platform/).  |  | :white_check_mark: | :white_check_mark: |
@@ -41,7 +41,7 @@ Observability affects team productivity and system availability. If observabilit
 | OnCall rotation | It has a PagerDuty team, escalation policy, schedules. |  | :white_check_mark: | :white_check_mark: |
 | OnCall playbooks | It has OnCall playbooks. |  |  | :white_check_mark: |
 | Log to STDOUT | Its logs are output to STDOUT/STDERR. | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| Log as JSON | Its logs are emitted in container log format. | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Log as JSON | Its logs are emitted in [container log format](container-log-format.md). | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | Log with annotation | Its logs have [Request ID](../concepts/request-id.md) annotation | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | Profiling | It is profiled by [GCP Stackdriver Profiler](https://cloud.google.com/profiler). |  | :white_check_mark: | :white_check_mark: |
 | Error tracking | Its errors are tracked by Sentry. |  | :white_check_mark: | :white_check_mark: |
