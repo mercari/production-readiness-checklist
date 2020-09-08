@@ -29,7 +29,5 @@ Sustainability affects long-term team/organization productivity and system avail
 | :--------- | :----------------- | :------ | :------ | :------ |
 | No short-term transfer | Its team members are not forced to move to another team in the short term. |  | :white_check_mark: | :white_check_mark: |
 | OnCall considered team | Its team follows OnCall practices. |  |  | :white_check_mark: |
-| Cross-functional team | Its team is a cross-functional team. | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | Dependency SLA | Its team knows SLA of the service dependencies. |  | :white_check_mark: | :white_check_mark: |
 | [SLOs](../concepts/slo.md) | Its SLOs and SLOs owner are defined. |  | :white_check_mark: | :white_check_mark: |
-| Error budget | Its team can stop launching new features if the team spent all the budget. |  |  | :white_check_mark: |

@@ -24,7 +24,6 @@ Maintainability affects team productivity and system availability. If maintainab
 | Automatic deploy | Its automated deploy process is running in CI/CD system. |  | :white_check_mark: | :white_check_mark: |
 | [Gradual deploy](../concepts/gradual-deploy.md) | Its deploy can be gradual if you want. |  |  | :white_check_mark: |
 | [Automated rollback](../concepts/automated-rollback.md) | Its rollback process is automated. |  | :white_check_mark: | :white_check_mark: |
-| Automatic rollback | Its rollback process is automatic. | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 
 ## :chart_with_downwards_trend: Observability
 Observability affects team productivity and system availability. If observability is low, the team will take a longer time to notice/investigate a problem occurred in production. And it will make MTTR (Mean Time To Recover) longer.
@@ -87,7 +86,6 @@ Accessibility affects team/organization productivity. If accessibility is low, g
 | Source repo | It has links to source repo. | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | Docs | It has links to docs for users. | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | SLOs | Its dashboard shows SLOs. | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| Error budget | Its dashboard shows remaining error budget. | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 
 ## :file_folder: Data Storage
  Checks for services that have one or more data stores (e.g. databases, blob storage, ...). In **addition** to these checks, please refer to the service-specific sections below.
