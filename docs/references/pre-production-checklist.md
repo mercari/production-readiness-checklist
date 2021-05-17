@@ -12,7 +12,6 @@ Maintainability affects team productivity and system availability. If maintainab
 | Check name | Short Description  | Level C | Level B | Level A |
 | :--------- | :----------------- | :------ | :------ | :------ |
 | Unit test | It has unit tests. And the unit tests are running in a CI system. | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| [Test coverage](https://docs.codecov.io/docs/about-code-coverage) | Its test coverage is reported to Codecov in CI system. | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | High Test coverage | Its test coverage is over 80%. |  | :white_check_mark: | :white_check_mark: |
 | [Config in env-var](https://12factor.net/config) | Its config can be overridden via environment variable.  |  | :white_check_mark: | :white_check_mark: |
 | [dockerignore](https://docs.docker.com/engine/reference/builder/#dockerignore-file) | It has dockerignore to reduce the Docker image size. |  | :white_check_mark: | :white_check_mark: |
