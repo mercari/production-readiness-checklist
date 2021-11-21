@@ -6,4 +6,5 @@
    :hidden:
    :maxdepth: 1
 
+   license
 ```
