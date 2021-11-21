@@ -6,7 +6,7 @@ Capacity Planning is measuring the performance of a service and working out the 
 
  - To predict in advance if your service will be able to serve all the customers you need it to serve
  - To be able to plan and justify performance work
- - To be able to plan for [auto scaling](./auto-scaling.md)
+ - To be able to plan for [auto scaling](auto-scaling.md)
  - To be able to configure better monitoring and alerting for your service
  - To understand failure conditions of your service
 

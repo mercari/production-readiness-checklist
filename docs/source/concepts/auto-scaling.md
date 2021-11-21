@@ -10,7 +10,7 @@ Auto scaling is when your service is configured to automatically increase or dec
 
 ## Tips and Tricks
 
- - [Capacity planning](./capacity-planning.md) is an essential pre-requisite for determining a good scaling configuration
+ - [Capacity planning](capacity-planning.md) is an essential pre-requisite for determining a good scaling configuration
  - There is a delay in autoscaling, if you can predict a sudden increase in traffic in advance you should still consider scaling for that manually (e.g. right before a major promotion)
  - Measure how long it takes to scale your service up, how much traffic each instance of your service should handle, and how much traffic you expect in normal operation. Based upon those, you can estimate at which point you should trigger a scaling event
  - Scaling values should be reviewed and modified over time to provide a good balance between stability and cost efficiency
@@ -19,5 +19,5 @@ Auto scaling is when your service is configured to automatically increase or dec
 
 ## See Also
 
- - [Capacity Planning](./capacity-planning.md)
+ - [Capacity Planning](capacity-planning.md)
  - [Horizontal Pod Autoscaler Walkthrough](https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale-walkthrough/)
