@@ -1,0 +1,8 @@
+References
+==========
+```{toctree}
+   :glob:
+   :titlesonly:
+
+*
+```
