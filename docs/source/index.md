@@ -7,5 +7,6 @@
    :maxdepth: 1
 
    contributing
+   changelog
    license
 ```
